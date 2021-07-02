@@ -73,17 +73,17 @@ void replaceWithAverage(double matrix[11][11], int n) {
 	}
 }
 
-int main() {
-
-	double matrix[11][11] = {
-		{1, 0, 0, 2},
-		{1, 21, 3, 4},
-		{1, 2, 3, 4},
-		{1, 2, 3, 4}
-	};
-
-	replaceWithAverage(matrix, 4);
-	printMatrix(matrix, 4);
-
-	return 0;
-}
+//int main() {
+//
+//	double matrix[11][11] = {
+//		{1, 0, 0, 2},
+//		{1, 21, 3, 4},
+//		{1, 2, 3, 4},
+//		{1, 2, 3, 4}
+//	};
+//
+//	replaceWithAverage(matrix, 4);
+//	printMatrix(matrix, 4);
+//
+//	return 0;
+//}
